@@ -22,6 +22,14 @@
     display: inline-block;
 }
 
+.about .about__left ul li :hover {
+    filter: drop-shadow(0 4px 8px #0b4177);
+    transition: background-color 0.7s;
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: transform 0.4s;
+}
+
 .about .about__left ul li a {
     display: inline-block;
     padding: 1rem;
